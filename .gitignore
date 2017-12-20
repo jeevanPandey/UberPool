@@ -45,10 +45,10 @@ Carthage/Build
 
 # fastlane
 #
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the 
 # screenshots whenever they are needed.
 # For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/#source-control
+# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
 
 fastlane/report.xml
 fastlane/Preview.html
@@ -61,3 +61,12 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+
+.DS_Store
+
+*.lock
+
+Podfile.lock
+
+/Pods
