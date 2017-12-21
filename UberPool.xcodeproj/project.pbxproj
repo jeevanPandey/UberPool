@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0922B5E31FEB857E00707F0B /* UserAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0922B5E21FEB857E00707F0B /* UserAnnotation.swift */; };
+		0922B5E51FEB90EE00707F0B /* DestinationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0922B5E41FEB90EE00707F0B /* DestinationAnnotation.swift */; };
+		0922B5E71FEBC34A00707F0B /* MapViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0922B5E61FEBC34A00707F0B /* MapViewExtension.swift */; };
 		0924F3CA1FCD343600CBD4E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0924F3C91FCD343600CBD4E3 /* AppDelegate.swift */; };
 		0924F3CC1FCD343600CBD4E3 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0924F3CB1FCD343600CBD4E3 /* HomeVC.swift */; };
 		0924F3D11FCD343700CBD4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0924F3D01FCD343700CBD4E3 /* Assets.xcassets */; };
@@ -32,6 +35,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0922B5E21FEB857E00707F0B /* UserAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAnnotation.swift; sourceTree = "<group>"; };
+		0922B5E41FEB90EE00707F0B /* DestinationAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationAnnotation.swift; sourceTree = "<group>"; };
+		0922B5E61FEBC34A00707F0B /* MapViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewExtension.swift; sourceTree = "<group>"; };
 		0924F3C61FCD343600CBD4E3 /* UberPool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberPool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0924F3C91FCD343600CBD4E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0924F3CB1FCD343600CBD4E3 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeVC.swift; path = ../HomeVC.swift; sourceTree = "<group>"; };
@@ -111,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				092C4C5E1FD9163C00BC4B9F /* DriverAnnotation.swift */,
+				0922B5E41FEB90EE00707F0B /* DestinationAnnotation.swift */,
+				0922B5E21FEB857E00707F0B /* UserAnnotation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,6 +163,7 @@
 				096D1DD71FD161470016E9AD /* ViewExtension.swift */,
 				093138591FE13073008B97C8 /* LocationSearchTable.swift */,
 				0931385B1FE132B7008B97C8 /* LocationSearchTable.xib */,
+				0922B5E61FEBC34A00707F0B /* MapViewExtension.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,16 +330,19 @@
 				0924F3CA1FCD343600CBD4E3 /* AppDelegate.swift in Sources */,
 				092C4C5F1FD9163C00BC4B9F /* DriverAnnotation.swift in Sources */,
 				09B2D6561FCE974B00E9CD98 /* ContainerViewController.swift in Sources */,
+				0922B5E31FEB857E00707F0B /* UserAnnotation.swift in Sources */,
 				09B2D6581FCE974B00E9CD98 /* SidePanelViewControllerDelegate.swift in Sources */,
 				09B2D6551FCE974B00E9CD98 /* HomeViewControllerDelegate.swift in Sources */,
 				09B2D6571FCE974B00E9CD98 /* SidePanelViewController.swift in Sources */,
 				096D1DD81FD161470016E9AD /* ViewExtension.swift in Sources */,
 				096D1DD31FD119600016E9AD /* RoundedImageView.swift in Sources */,
 				0931385A1FE13073008B97C8 /* LocationSearchTable.swift in Sources */,
+				0922B5E71FEBC34A00707F0B /* MapViewExtension.swift in Sources */,
 				096D1DD11FD00DAA0016E9AD /* GTXVC.swift in Sources */,
 				09B2D64D1FCE7BB800E9CD98 /* AnimatorButton.swift in Sources */,
 				09CB129B1FCD7818009DC177 /* RoundedShadowView.swift in Sources */,
 				096D1DD61FD137700016E9AD /* LoginViewController.swift in Sources */,
+				0922B5E51FEB90EE00707F0B /* DestinationAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
